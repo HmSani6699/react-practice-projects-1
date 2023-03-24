@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <article>
-        <h1>New blog</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis, earum ut placeat est ratione ducimus autem eligendi veniam esse sunt voluptas laudantium illum tempore modi maxime repudiandae, enim nemo.</p>
+      <h1>New blog</h1>
+      <article className='blog'>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nisi facilis voluptas rem asperiores, nobis molestiae. Delectus, aut veritatis doloremque ad consequatur expedita quas dignissimos error, eligendi, id et commodi explicabo deleniti? Illo repudiandae et ut maxime omnis voluptatibus quod, ab animi vitae tempore quo in reprehenderit quis, obcaecati odio?</p>
       </article>
     </div>
   );
