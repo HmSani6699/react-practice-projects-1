@@ -1,5 +1,6 @@
 import './App.css';
 import Blog from './component/Blog/Blog';
+import Mobile from './component/Mobile/Mobile';
 
 function App() {
   const titleStyle = {
@@ -18,6 +19,9 @@ function App() {
         author="tomra sobay amar jono doawa koro ami jeno amar sob asa poron korte pari"></Blog>
       <Blog heading="Insa allah ekdin sob asa poron hobe"
         author="tomra sobay amar jono doawa koro ami jeno amar sob asa poron korte pari"></Blog>
+
+      <Mobile></Mobile>
+
       <Blog heading="Insa allah ekdin sob asa poron hobe"
         author="tomra sobay amar jono doawa koro ami jeno amar sob asa poron korte pari"></Blog>
     </div>
