@@ -1,4 +1,5 @@
 import './App.css';
+import Blog from './component/Blog/Blog';
 
 function App() {
   const titleStyle = {
@@ -13,6 +14,9 @@ function App() {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nisi facilis voluptas rem asperiores, nobis molestiae. Delectus, aut veritatis doloremque ad consequatur expedita quas dignissimos error, eligendi, id et commodi explicabo deleniti? Illo repudiandae et ut maxime omnis voluptatibus quod, ab animi vitae tempore quo in reprehenderit quis, obcaecati odio?</p>
         <p style={{ color: 'white', backgroundColor: 'orange', padding: '10px' }}>inline style</p>
       </article>
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
     </div>
   );
 }
