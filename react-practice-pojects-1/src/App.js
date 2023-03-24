@@ -1,3 +1,7 @@
+/* 
+
+//-----------practice  1 - 10 ---------//
+
 import './App.css';
 import Blog from './component/Blog/Blog';
 import Mobile from './component/Mobile/Mobile';
@@ -27,5 +31,24 @@ function App() {
     </div>
   );
 }
+
+export default App;
+ */
+
+
+
+//-------------practice 11---------//
+
+import React from 'react';
+import './App.css';
+import Todos from './component/Todos/Todos';
+
+const App = () => {
+  return (
+    <div className='App'>
+      <Todos></Todos>
+    </div>
+  );
+};
 
 export default App;
